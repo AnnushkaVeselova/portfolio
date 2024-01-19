@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link rel="icon" href="image/consult.svg" type="imag/svg+xml">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+  <div class="body-wrapper">
+  <header class="header">
+    <div class="header__container container">
+      <div class="header-logo title-h3">Веселова<br>Анна Дмитриевна</div>
+
+      <nav class="menu">
+        <ul class="list-reset menu__list">
+          <li class="menu__item">
+            <a href="#project" class="menu__link">Проекты</a>
+          </li>
+          <li class="menu__item">
+            <a href="#experiment" class="menu__link">Эксперименты</a>
+          </li>
+          <li class="menu__item">
+            <a href="#contact" class="menu__link">Контакты</a>
+          </li>
+          <li class="menu__item">
+            <a href="image/Веселова Анна Дмитриевна.pdf" download class="menu__link">Резюме(pdf)</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="header__burger-btn btn-reset" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="about">
+      <div class="about-block container">
+
+        <div class="about-block__info about-block__info-padding">
+          <h2 class="about-block__info-title title-h2">Привет! <br>Меня зовут Анна.</h2>
+          <p class="about-block__info-text">Хочу рассказать немного о себе.</p>
+          <p class="about-block__info-text">Мне нравиться создавать красивые и удобные сайты.</p>
+          <p class="about-block__info-text">Несколько лет вела YouTube канал, рубрики в чатах и размещала информацию на
+            сайтах. Поэтому мне хорошо знакома ситуация с "неудобными" сайтами.</p>
+          <p class="about-block__info-text">Очень хочу работать в этом направлении, развиваться и набираться опыта.
+            Мечтаю создать собственное приложение! Пробовала работать в Tilda, но для себя поняла, что работа в ручном
+            режиме мне нравится больше.</p>
+          <p class="about-block__info-text">Мои навыки:</p>
+          <p class="about-block__info-text">- ответственно отношусь к работе, внимательно изучаю проект</p>
+          <p class="about-block__info-text">- HTML, CSS, SCSS, JS, Grid, Gulp, Git, Figma, адаптивная и Pixel Perfect
+            верстка, БЭМ, библиотеки</p>
+
+          <p class="about-block__info-text">Немного о моем образовании:</p>
+          <p class="about-block__info-text"> В 2008 году закончила "Саратовский государственный социально-экономический
+            университет" по специальности "История".</p>
+          <p class="about-block__info-text"> В 2023 году прошла обучение в "Образовательные технологии "Скиллбокс
+            (Коробка навыков)" по программе "frontend-разработчик"</p>
+          <p class="about-block__info-text">Продолжаю самообразование, изучение Java Script и периодически прохожу
+            разные интенсивы</p>
+        </div>
+        <div class="about-block__image">
+          <img class="about-block__image-pic" src="image/photo.png" alt="фото хозяйки сайта">
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project container">
+      <h2 class="project__title title-h2">мои проекты</h2>
+      <ul class="project__list list-reset ">
+        <li class="project__item">
+          <div class="project__item-img">
+            <img class="project__item-img1" src="image/portfolio/evklid.png" alt="евклид">
+          </div>
+          <div class="project__item-block">
+            <h3 class="project__item-title title-h3">Евклид - проектные системы</h3>
+            <p class="project__item-text">Адаптивная верстка одностраничного сайта</p>
+            <ul class="project__item-list">
+              <li>HTML, CSS, JS</li>
+              <li>Адаптивная верстка</li>
+              <li>Библиотеки swiper, accordion</li>
+              <li>Pixel Perfect</li>
+            </ul>
+            <div class="project__item-link">
+              <a href="https://annushkaveselova.github.io/Evklid/" class="project__link">Посмотреть сайт <svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#5E7476" />
+                </svg>
+              </a>
+              <a href="https://github.com/AnnushkaVeselova/Evklid" class="project__link">Посмотреть в Git <img src="image/arrow.svg" alt="стрелочка">
+              </a>
+            </div>
+
+          </div>
+        </li>
+
+        <li class="project__item">
+          <div class="project__item-img">
+            <img class="project__item-img1" src="image/portfolio/high_pass.png" alt="сайт фотографа">
+          </div>
+          <div class="project__item-block">
+            <h3 class="project__item-title title-h3">High Pass</h3>
+            <p class="project__item-text">Адаптивная верстка одностраничного сайта</p>
+            <ul class="project__item-list">
+              <li>HTML, CSS, JS</li>
+              <li>БЭМ, Pixel Perfect</li>
+              <li>Адаптивная верстка с использованием Grid</li>
+              <li>Библиотеки just-validate</li>
+              <li>Map. Яндекс карта</li>
+            </ul>
+            <div class="project__item-link">
+              <a href="https://annushkaveselova.github.io/HighPass/" class="project__link">Посмотреть сайт <svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#5E7476" />
+                </svg>
+              </a>
+              <a href="https://github.com/AnnushkaVeselova/HighPass" class="project__link">Посмотреть в Git <img src="image/arrow.svg" alt="стрелочка">
+              </a>
+            </div>
+          </div>
+        </li>
+
+
+
+        <li class="project__item project__item-4">
+          <div class="project__item-img">
+            <img class="project__item-img1" src="image/portfolio/resume_gaz.png" alt="сайт газовых котлов">
+          </div>
+          <div class="project__item-block">
+            <h3 class="project__item-title title-h3">Boilers</h3>
+            <p class="project__item-text">Верстка одностраничного сайта (desktop и mobil версии)</p>
+            <ul class="project__item-list">
+              <li>HTML, CSS, JS</li>
+              <li>БЭМ</li>
+              <li>Библиотека swiper</li>
+              <li>Map. Яндекс карта</li>
+            </ul>
+
+            <div class="project__item-link">
+              <a href="https://annushkaveselova.github.io/Boilers/" class="project__link">Посмотреть сайт <svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#5E7476" />
+                </svg>
+              </a>
+              <a href="https://github.com/AnnushkaVeselova/Boilers" class="project__link">Посмотреть в Git <img src="image/arrow.svg" alt="стрелочка">
+              </a>
+            </div>
+          </div>
+
+        </li>
+
+        <li class="project__item project__item-3">
+          <div class="project__item-img">
+            <img class="project__item-img1" src="image/portfolio/courses.png" alt="курсы">
+          </div>
+          <div class="project__item-block">
+            <h3 class="project__item-title title-h3">Курсы моделирования</h3>
+            <p class="project__item-text">Адаптивная верстка одностраничного сайта</p>
+            <ul class="project__item-list">
+              <li>HTML, CSS, JS</li>
+              <li>БЭМ, Pixel Perfect</li>
+              <li>Библиотека bootstrap-grid</li>
+            </ul>
+
+            <div class="project__item-link">
+              <a href="https://annushkaveselova.github.io/Education/" class="project__link">Посмотреть сайт <svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#5E7476" />
+                </svg>
+              </a>
+              <a href="https://github.com/AnnushkaVeselova/Education" class="project__link">Посмотреть в Git <img src="image/arrow.svg" alt="стрелочка">
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="project__item project__item-5">
+          <div class="project__item-img">
+            <img class="project__item-img1" src="image/portfolio/divan.png" alt="сайт магазина диванов">
+          </div>
+          <div class="project__item-block">
+            <h3 class="project__item-title title-h3">SitDownPls - интернет-магазин мебели</h3>
+            <p class="project__item-text">Адаптивная верстка многостраничного сайта (главная, каталог, страница
+              продукта)
+            </p>
+            <ul class="project__item-list">
+              <li>HTML, CSS, SCSS, JS, Gulp</li>
+              <li>БЭМ, Pixel Perfect</li>
+              <li>Библиотеки swiper, nouislider, justValidate, inputmask</li>
+            </ul>
+
+            <div class="project__item-link">
+              <a href="https://annushkaveselova.github.io/ShopSitDownPls/" class="project__link">Посмотреть сайт <svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#5E7476" />
+                </svg>
+              </a>
+              <a href="https://github.com/AnnushkaVeselova/ShopSitDownPls" class="project__link">Посмотреть в Git <img src="image/arrow.svg" alt="стрелочка">
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li class="project__item project__item-6">
+          <div class="project__item-img">
+            <img class="project__item-img1" src="image/portfolio/portfolio.png" alt="портфолио">
+          </div>
+          <div class="project__item-block">
+            <h3 class="project__item-title title-h3">Portfolio</h3>
+            <p class="project__item-text">Адаптивная верстка моего сайта, на котором Вы сейчас</p>
+            <ul class="project__item-list">
+              <li>HTML, CSS, JS</li>
+              <li>БЭМ, Pixel Perfect</li>
+              <li>Библиотеки swiper</li>
+            </ul>
+
+            <div class="project__item-link">
+              <a href="" class="project__link">Посмотреть сайт <svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#5E7476" />
+                </svg>
+              </a>
+              <a href="" class="project__link">Посмотреть в Git <img src="image/arrow.svg" alt="стрелочка">
+              </a>
+            </div>
+          </div>
+        </li>
+        <li class="project__item project__item-7">
+          <div class="project__item-img">
+            <img class="project__item-img1" src="image/portfolio/letter.png" alt="портфолио">
+          </div>
+          <div class="project__item-block">
+            <h3 class="project__item-title title-h3">HTML-письмо</h3>
+            <p class="project__item-text">Корректно отображается в почтовых клиентах Mail.ru, Yandex, Apple Mail, Windows 10 Mail, outlook.com,
+              в десктопных, браузерных и мобильных версиях этих почтовых клиентов</p>
+            <ul class="project__item-list">
+              <li>HTML, CSS</li>
+            </ul>
+
+            <div class="project__item-link">
+              <a href="https://annushkaveselova.github.io/HTML-email/" class="project__link">Посмотреть сайт <svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#5E7476" />
+                </svg>
+              </a>
+              <a href="https://github.com/AnnushkaVeselova/HTML-email" class="project__link">Посмотреть в Git <img src="image/arrow.svg" alt="стрелочка">
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li class="project__item project__item-8 hidden">
+          <div class="project__item-img">
+            <img class="project__item-img1" src="image/portfolio/portfolio.png" alt="портфолио">
+          </div>
+          <div class="project__item-block">
+            <h3 class="project__item-title title-h3">Заготовка</h3>
+            <p class="project__item-text">Заготовка</p>
+            <ul class="project__item-list">
+              <li>HTML, CSS, JS</li>
+              <li>БЭМ</li>
+              <li>Библиотеки swiper</li>
+              <li>Pixel Perfect</li>
+            </ul>
+
+            <div class="project__item-link">
+              <a href="" class="project__link">Посмотреть сайт <svg width="21" height="8" viewBox="0 0 21 8" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M20.3536 4.35355C20.5488 4.15829 20.5488 3.84171 20.3536 3.64645L17.1716 0.464466C16.9763 0.269204 16.6597 0.269204 16.4645 0.464466C16.2692 0.659728 16.2692 0.976311 16.4645 1.17157L19.2929 4L16.4645 6.82843C16.2692 7.02369 16.2692 7.34027 16.4645 7.53553C16.6597 7.7308 16.9763 7.7308 17.1716 7.53553L20.3536 4.35355ZM0 4.5H20V3.5H0V4.5Z"
+                    fill="#5E7476" />
+                </svg>
+              </a>
+              <a href="" class="project__link">Посмотреть в Git <img src="image/arrow.svg" alt="стрелочка">
+              </a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+      <button class="project__btn" type="button">Показать еще</button>
+    </section>
+
+    <section id="experiment" class="experiments container">
+      <h2 class="experiments-title title-h2">мои эксперименты</h2>
+      <div class="experiments__container swiper">
+        <ul class="experiments__wrapper swiper-wrapper">
+
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/Screenshot_179.png" alt="сертификат">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/prototip.png" alt="прототип">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/Flowers_color.png" alt="сайт">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/flowers_color_mob.png" alt="сайт моб версия">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/maket.png" alt="макет">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/maket-2.png" alt="макет">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/maket-3.png" alt="макет">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/Screenshot_173.png" alt="сертификат">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/tilda-1.png" alt="tilda">
+          </li>
+          <li class="experiments__item swiper-slide">
+            <img class="experiments__item-img" src="image/doc/tilda-mob.png" alt="tilda">
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2 class="contact-block__title title-h2 container contact-block__title-2">Давайте работать вместе!</h2>
+      <div class="contact__block container">
+        <div class="contact__block-img">
+          <img class="contact__block-img1" src="image/photo1.png">
+        </div>
+
+      <div class="contact__block-info contact-block">
+
+        <h2 class="contact-block__title title-h2 contact-block__title-1">Давайте работать вместе!</h2>
+        <p class="contact-block__text">Свяжитесь со мной любым удобным для вас способом:</p>
+        <ul class="contact-block__list list-reset">
+          <li class="contact-block__item">
+            <p class="contact-block__text"><b>Email:</b> Aniuta_a85@mail.ru</p>
+          </li>
+          <li class="contact-block__item">
+            <p class="contact-block__text"><b>Телефон:</b> +7 937 248 82 73</p>
+          </li>
+          <li class="contact-block__item">
+            <p class="contact-block__text contact-block__text-margin">Резюме для печати и скачивания <a href="image/Веселова Анна Дмитриевна.pdf" download class="menu__link-1"><b>(pdf)</b></a></p>
+          </li>
+          <li class="contact-block__item contact-block__item-link">
+            <a href="https://github.com/AnnushkaVeselova" class="contact-block__link">
+              <svg class="contact-block__link-svg contact-block__link-svg1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 32 32">
+                <path fill-rule="evenodd" d="M 16 4 C 9.371094 4 4 9.371094 4 16 C 4 21.300781 7.4375 25.800781 12.207031 27.386719 C 12.808594 27.496094 13.027344 27.128906 13.027344 26.808594 C 13.027344 26.523438 13.015625 25.769531 13.011719 24.769531 C 9.671875 25.492188 8.96875 23.160156 8.96875 23.160156 C 8.421875 21.773438 7.636719 21.402344 7.636719 21.402344 C 6.546875 20.660156 7.71875 20.675781 7.71875 20.675781 C 8.921875 20.761719 9.554688 21.910156 9.554688 21.910156 C 10.625 23.746094 12.363281 23.214844 13.046875 22.910156 C 13.15625 22.132813 13.46875 21.605469 13.808594 21.304688 C 11.144531 21.003906 8.34375 19.972656 8.34375 15.375 C 8.34375 14.0625 8.8125 12.992188 9.578125 12.152344 C 9.457031 11.851563 9.042969 10.628906 9.695313 8.976563 C 9.695313 8.976563 10.703125 8.65625 12.996094 10.207031 C 13.953125 9.941406 14.980469 9.808594 16 9.804688 C 17.019531 9.808594 18.046875 9.941406 19.003906 10.207031 C 21.296875 8.65625 22.300781 8.976563 22.300781 8.976563 C 22.957031 10.628906 22.546875 11.851563 22.421875 12.152344 C 23.191406 12.992188 23.652344 14.0625 23.652344 15.375 C 23.652344 19.984375 20.847656 20.996094 18.175781 21.296875 C 18.605469 21.664063 18.988281 22.398438 18.988281 23.515625 C 18.988281 25.121094 18.976563 26.414063 18.976563 26.808594 C 18.976563 27.128906 19.191406 27.503906 19.800781 27.386719 C 24.566406 25.796875 28 21.300781 28 16 C 28 9.371094 22.628906 4 16 4 Z"></path>
+                </svg>
+            </a>
+
+            <a href="https://t.me/+79372488273" target="_blank" class="contact-block__link">
+              <svg class="contact-block__link-svg contact-block__link-svg3" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 72 72">
+                <path d="M36,12c13.255,0,24,10.745,24,24S49.255,60,36,60S12,49.255,12,36S22.745,12,36,12z M44.279,45.783	c0.441-1.354,2.51-14.853,2.765-17.513c0.077-0.806-0.177-1.341-0.676-1.58c-0.603-0.29-1.496-0.145-2.533,0.229	c-1.421,0.512-19.59,8.227-20.64,8.673c-0.995,0.423-1.937,0.884-1.937,1.552c0,0.47,0.279,0.734,1.047,1.008	c0.799,0.285,2.812,0.895,4.001,1.223c1.145,0.316,2.448,0.042,3.178-0.412c0.774-0.481,9.71-6.46,10.351-6.984	c0.641-0.524,1.152,0.147,0.628,0.672c-0.524,0.524-6.657,6.477-7.466,7.301c-0.982,1.001-0.285,2.038,0.374,2.453	c0.752,0.474,6.163,4.103,6.978,4.685c0.815,0.582,1.641,0.846,2.398,0.846S43.902,46.94,44.279,45.783z"></path>
+                </svg>
+            </a>
+
+            <a href="https://vk.com/id10118379" class="contact-block__link">
+              <svg class="contact-block__link-svg contact-block__link-svg3" width="25" height="25" viewBox="0 0 25 25"  xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_370726_103)">
+                <path d="M12.5 0C5.59815 0 0 5.59815 0 12.5C0 19.4018 5.59815 25 12.5 25C19.4018 25 25 19.4018 25 12.5C25 5.59815 19.4018 0 12.5 0ZM18.8394 13.8548C19.4274 14.4172 20.0409 14.954 20.5521 15.593C20.7822 15.8742 21.0122 16.1554 21.1656 16.4877C21.3957 16.9478 21.1912 17.4591 20.7822 17.4846H18.226C17.5613 17.5358 17.0501 17.2801 16.59 16.82C16.2321 16.4622 15.8998 16.0787 15.5675 15.6953C15.4397 15.5419 15.2863 15.3885 15.1073 15.2863C14.7495 15.0562 14.4427 15.1329 14.2638 15.4908C14.0593 15.8742 14.0082 16.2832 13.9826 16.6922C13.957 17.3057 13.7781 17.4591 13.1646 17.4846C11.8609 17.5358 10.6339 17.3568 9.50919 16.6922C8.51226 16.1043 7.71983 15.3118 7.05521 14.3916C5.72597 12.6022 4.72903 10.6339 3.80879 8.61451C3.60429 8.15439 3.75767 7.92433 4.26891 7.89876C5.11247 7.8732 5.93046 7.8732 6.77402 7.89876C7.10633 7.89876 7.33639 8.10326 7.46421 8.41001C7.92433 9.50919 8.46114 10.5828 9.15132 11.5542C9.33026 11.8098 9.53475 12.0654 9.79038 12.2699C10.0971 12.4744 10.3016 12.3977 10.455 12.0654C10.5317 11.8609 10.5828 11.6309 10.6084 11.4008C10.6851 10.6339 10.6851 9.86707 10.5572 9.10019C10.4806 8.58895 10.2249 8.2822 9.73925 8.17995C9.48363 8.12883 9.53476 8.05214 9.637 7.89876C9.8415 7.6687 10.046 7.51533 10.4294 7.51533H13.318C13.7781 7.61758 13.8804 7.79652 13.9315 8.25664V11.4775C13.9315 11.6564 14.0082 12.1932 14.3405 12.2955C14.5961 12.3722 14.775 12.1677 14.9284 12.0143C15.6186 11.273 16.1043 10.4039 16.5644 9.50919C16.7689 9.10019 16.9223 8.6912 17.1012 8.2822C17.229 7.97545 17.408 7.82208 17.7658 7.82208H20.5521C20.6288 7.82208 20.7055 7.82208 20.8078 7.84764C21.2679 7.92433 21.3957 8.12883 21.2679 8.58895C21.0378 9.30469 20.6033 9.91819 20.1687 10.5061C19.7086 11.1452 19.1973 11.7587 18.7372 12.4233C18.2771 13.0368 18.3026 13.3435 18.8394 13.8548Z" />
+                </g>
+                <defs>
+                <clipPath id="clip0_370726_103">
+                <rect width="25" height="25" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer container">
+      <div class="footer-logo title-h3">Веселова<br>Анна Дмитриевна
+      </div>
+      <p class="footer__info">сайт придуман и сделан мной без конструктора</p>
+    </div>
+  </footer>
+  <div class="go-top"><img class="go-top__img" src="image/arrowx3.svg"></div>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+  </div>
+
+</body>
+
+</html>
